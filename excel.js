@@ -37,7 +37,7 @@ function excelToJson(file) {
 function convertToRequiredFormat(data) {
   const channelData = {
     "channel": {
-      "wurl_channel_slug": "asiatvlimited_zeeworld_1",
+      "wurl_channel_slug": "this provided by Wurl platform",
       "title": "Zee World",
       "broadcast_url": "http://test1.com",
       "language": "en",
