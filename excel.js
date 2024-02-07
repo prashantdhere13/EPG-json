@@ -115,7 +115,7 @@ function enableDownloadLink(jsonData) {
 }
 
 function sendToAPI() {
-  const apiURL = 'https://ingest-api-prod.wurl.com/epgs'; // Replace with your actual API URL
+  const apiURL = ''; // Replace with your actual API URL
 
   if (jsonOutputData && apiURL) {
     fetch(apiURL, {
