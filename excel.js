@@ -38,7 +38,7 @@ function convertToRequiredFormat(data) {
   const channelData = {
     "channel": {
       "wurl_channel_slug": "this provided by Wurl platform",
-      "title": "Zee World",
+      "title": "Channel Name",
       "broadcast_url": "http://test1.com",
       "language": "en",
       "programs": [],
@@ -123,7 +123,7 @@ function sendToAPI() {
       mode:'no-cors',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': 'okGuMA3ZH8ay0agg8RP5D4gZNh8MoOAB2AxkmePe',
+        'x-api-key': 'this need for Post API method',
 
       },
       body: jsonOutputData,
