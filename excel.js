@@ -37,7 +37,7 @@ function excelToJson(file) {
 function convertToRequiredFormat(data) {
   const channelData = {
     "channel": {
-      "url_channel_slug": "this provided by Wurl platform",
+      "url_channel_slug": "this provided by url platform",
       "title": "Channel Name",
       "broadcast_url": "http://test1.com",
       "language": "en",
