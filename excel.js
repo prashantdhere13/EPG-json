@@ -79,10 +79,10 @@ function convertToRequiredFormat(data) {
           "episode_number": parseInt(data[i][7])
         }
       },
-      "ratings": [
+      "rating": [
         {
           "source": "Program Rating",
-          "rating": data[i][2]
+          "value": data[i][2]
         }
       ],
       "description": data[i][3]
